@@ -1,5 +1,5 @@
 public class SimpleLogger {
-    public void logThis(String pLogMessage) {
-        System.out.println("[info]" + pLogMessage);
+    public void logThis(String pLogMessage, String pLogLevel) {
+        System.out.println("[" + pLogLevel + "]" + pLogMessage);
     }
 }
